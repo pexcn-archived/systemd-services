@@ -1,0 +1,12 @@
+[Unit]
+Description=vlmcsd (KMS Emulator in C)
+After=network.target
+
+[Service]
+Type=simple
+Nice=-5
+LimitNOFILE=65535
+ExecStart=/usr/local/bin/vlmcsd -i /etc/vlmcsd/vlmcsd.ini -D
+
+[Install]
+WantedBy=multi-user.target

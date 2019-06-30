@@ -19,3 +19,12 @@ curl -sSL https://github.com/pexcn/systemd-services/raw/master/socks5-server/ins
 # uninstall
 curl -sSL https://github.com/pexcn/systemd-services/raw/master/socks5-server/uninstall.sh | bash
 ```
+
+### vlmcsd
+
+```bash
+# install
+curl -sSL https://github.com/pexcn/systemd-services/raw/master/vlmcsd/install.sh | bash
+# uninstall
+curl -sSL https://github.com/pexcn/systemd-services/raw/master/vlmcsd/uninstall.sh | bash
+```
