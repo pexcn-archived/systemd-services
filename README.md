@@ -1,39 +1,18 @@
 # Systemd Services
 
+This is a collection of systemd service units for some programs, it can be combined with [static-build-ci](https://github.com/pexcn/static-build-ci).  
+Systemd Services is a part of [Odyssey](https://github.com/pexcn/Odyssey).  
+
 ## Usage
 
-### ss-server
-
 ```bash
+PROGRAM=ss-server
+#PROGRAM=socks5-server
+#PROGRAM=mtg
+#PROGRAM=vlmcsd
+
 # install
-curl -sSL https://github.com/pexcn/systemd-services/raw/master/ss-server/install.sh | bash
+curl -sSL https://github.com/pexcn/systemd-services/raw/master/$PROGRAM/install.sh | bash
 # uninstall
-curl -sSL https://github.com/pexcn/systemd-services/raw/master/ss-server/uninstall.sh | bash
-```
-
-### socks5-server
-
-```bash
-# install
-curl -sSL https://github.com/pexcn/systemd-services/raw/master/socks5-server/install.sh | bash
-# uninstall
-curl -sSL https://github.com/pexcn/systemd-services/raw/master/socks5-server/uninstall.sh | bash
-```
-
-### mtg
-
-```bash
-# install
-curl -sSL https://github.com/pexcn/systemd-services/raw/master/mtg/install.sh | bash
-# uninstall
-curl -sSL https://github.com/pexcn/systemd-services/raw/master/mtg/uninstall.sh | bash
-```
-
-### vlmcsd
-
-```bash
-# install
-curl -sSL https://github.com/pexcn/systemd-services/raw/master/vlmcsd/install.sh | bash
-# uninstall
-curl -sSL https://github.com/pexcn/systemd-services/raw/master/vlmcsd/uninstall.sh | bash
+curl -sSL https://github.com/pexcn/systemd-services/raw/master/$PROGRAM/uninstall.sh | bash
 ```
