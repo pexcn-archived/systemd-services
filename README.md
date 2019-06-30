@@ -1,4 +1,4 @@
-# systemd-services
+# Systemd services
 
 ## Usage
 

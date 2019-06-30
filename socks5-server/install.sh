@@ -9,7 +9,8 @@ curl -sSL https://github.com/pexcn/systemd-services/raw/master/socks5-server/soc
 # enable
 systemctl enable socks5-server
 systemctl start socks5-server
-echo "socks5-server config: /etc/socks5-server/config.ini"
 
+echo
+echo "socks5-server config: /etc/socks5-server/config.ini"
 echo
 echo "socks5-server installed."
