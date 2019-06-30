@@ -1,5 +1,5 @@
 [Unit]
-Description=hev-socks5-server service
+Description=hev-socks5-server
 After=network-online.target
 
 [Service]

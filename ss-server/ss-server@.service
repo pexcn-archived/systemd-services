@@ -1,5 +1,5 @@
 [Unit]
-Description=shadowsocks-libev ss-server service for %I
+Description=shadowsocks-libev ss-server for %I
 After=network-online.target
 
 [Service]
