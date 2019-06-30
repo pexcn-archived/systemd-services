@@ -9,3 +9,6 @@ systemctl disable ss-server@chacha20
 # remove
 rm -rf /etc/shadowsocks-libev
 rm -f /lib/systemd/system/ss-server@.service
+
+echo
+echo "ss-server uninstalled."

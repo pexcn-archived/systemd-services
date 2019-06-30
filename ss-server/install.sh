@@ -10,7 +10,10 @@ curl -sSL https://github.com/pexcn/systemd-services/raw/master/ss-server/ss-serv
 # enable
 systemctl enable ss-server@aes
 systemctl start ss-server@aes
-echo "AES config in: /etc/shadowsocks-libev/aes.json"
+echo "ss-server aes config: /etc/shadowsocks-libev/aes.json"
 systemctl enable ss-server@chacha20
 systemctl start ss-server@chacha20
-echo "CHACHA20 config in: /etc/shadowsocks-libev/chacha20.json"
+echo "ss-server chacha20 config: /etc/shadowsocks-libev/chacha20.json"
+
+echo
+echo "ss-server installed."
