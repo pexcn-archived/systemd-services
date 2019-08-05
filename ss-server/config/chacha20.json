@@ -8,6 +8,5 @@
   "mode": "tcp_and_udp",
   "nameserver": "8.8.8.8",
   "fast_open": true,
-  "reuse_port": true,
-  "mtu": 1500
+  "reuse_port": true
 }
