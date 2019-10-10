@@ -16,6 +16,5 @@ systemctl start ss-server@chacha20
 echo
 echo "ss-server aes config: /etc/shadowsocks-libev/aes.json"
 echo "ss-server chacha20 config: /etc/shadowsocks-libev/chacha20.json"
-
 echo
 echo "ss-server installed."
