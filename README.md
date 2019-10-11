@@ -13,7 +13,7 @@ PROGRAM=ss-server
 #PROGRAM=vlmcsd
 
 # install
-curl -sSL https://github.com/pexcn/systemd-services/raw/master/$PROGRAM/install.sh | sh
+curl -sSL https://github.com/pexcn/systemd-services/raw/master/$PROGRAM/install.sh | bash
 # uninstall
-curl -sSL https://github.com/pexcn/systemd-services/raw/master/$PROGRAM/uninstall.sh | sh
+curl -sSL https://github.com/pexcn/systemd-services/raw/master/$PROGRAM/uninstall.sh | bash
 ```
