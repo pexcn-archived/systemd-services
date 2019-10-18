@@ -10,6 +10,7 @@ PROGRAM=ss-server
 #PROGRAM=mtg
 #PROGRAM=trojan
 #PROGRAM=udp2raw
+#PROGRAM=udpspeeder
 #PROGRAM=vlmcsd
 
 # install
