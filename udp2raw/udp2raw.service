@@ -9,9 +9,9 @@ LimitNOFILE=65535
 CapabilityBoundingSet=CAP_NET_BIND_SERVICE
 AmbientCapabilities=CAP_NET_BIND_SERVICE
 EnvironmentFile=/etc/udp2raw/udp2raw.conf
-ExecStart=/usr/local/bin/udp2raw -s -l $SERVER_ADDRESS -r $REMOTE_ADDRESS \
-  --raw-mode $RAW_MODE --key $KEY --cipher-mode $CIPHER_MODE --auth-mode $AUTH_MODE -a \
-  --log-level $LOG_LEVEL --sock-buf $SOCK_BUF --seq-mode $SEQ_MODE --mtu-warn $MTU_WARN --wait-lock $EXTRA_PARAMS
+ExecStart=/usr/local/bin/udp2raw $RUN_MODE -l $LOCAL_ADDRESS -r $REMOTE_ADDRESS \
+  --raw-mode $RAW_MODE --cipher-mode $CIPHER_MODE --auth-mode $AUTH_MODE -a \
+  --log-level $LOG_LEVEL --mtu-warn $MTU_WARN --wait-lock $EXTRA_PARAMS
 
 [Install]
 WantedBy=multi-user.target
