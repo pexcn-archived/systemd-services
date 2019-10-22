@@ -1,6 +1,6 @@
 [Unit]
 Description=vlmcsd (KMS Emulator in C)
-After=network.target
+After=network-online.target
 
 [Service]
 Type=simple
