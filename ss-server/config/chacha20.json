@@ -3,7 +3,7 @@
   "server_port": 443,
   "password": "barfoo!",
   "method": "chacha20-ietf-poly1305",
-  "timeout": 86400,
+  "timeout": 3600,
   "nofile": 65535,
   "mode": "tcp_and_udp",
   "nameserver": "8.8.8.8",
