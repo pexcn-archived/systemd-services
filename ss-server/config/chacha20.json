@@ -6,7 +6,6 @@
   "timeout": 3600,
   "nofile": 65535,
   "mode": "tcp_and_udp",
-  "nameserver": "8.8.8.8",
   "fast_open": true,
   "reuse_port": true,
   "no_delay": true
