@@ -12,6 +12,7 @@ PROGRAM=ss-server
 #PROGRAM=udp2raw
 #PROGRAM=udpspeeder
 #PROGRAM=vlmcsd
+#PROGRAM=chisel
 
 # install
 curl -sSL https://github.com/pexcn/systemd-services/raw/master/$PROGRAM/install.sh | bash
