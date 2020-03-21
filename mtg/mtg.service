@@ -10,7 +10,7 @@ CapabilityBoundingSet=CAP_NET_BIND_SERVICE
 AmbientCapabilities=CAP_NET_BIND_SERVICE
 Restart=on-failure
 EnvironmentFile=/etc/mtg/mtg.conf
-ExecStart=/usr/local/bin/mtg run -b $BIND_ADDRESS -w $WRITE_BUFFER -r $READ_BUFFER $SECRET_KEY
+ExecStart=/usr/local/bin/mtg run -b $BIND_ADDRESS -w $WRITE_BUFFER -r $READ_BUFFER --prefer-ip=ipv4 $SECRET_KEY
 
 [Install]
 WantedBy=multi-user.target
