@@ -13,6 +13,7 @@ PROGRAM=ss-server
 #PROGRAM=udpspeeder
 #PROGRAM=vlmcsd
 #PROGRAM=chisel
+#PROGRAM=netspeeder
 
 # install
 curl -sSL https://github.com/pexcn/systemd-services/raw/master/$PROGRAM/install.sh | bash

@@ -1,0 +1,13 @@
+[Unit]
+Description=A program to speed up single thread download upon long delay and unstable network
+After=network-online.target
+
+[Service]
+Type=simple
+Nice=-5
+LimitNOFILE=65535
+EnvironmentFile=/etc/netspeeder/netspeeder.conf
+ExecStart=/usr/local/bin/netspeeder $MODE $INTERFACE $FILTER
+
+[Install]
+WantedBy=multi-user.target
