@@ -7,7 +7,7 @@ Type=simple
 Nice=-5
 LimitNOFILE=65535
 EnvironmentFile=/etc/netspeeder/netspeeder.conf
-ExecStart=/usr/local/bin/netspeeder $MODE $INTERFACE $FILTER
+ExecStart=/usr/local/bin/netspeeder $INTERFACE ${FILTER}
 
 [Install]
 WantedBy=multi-user.target
