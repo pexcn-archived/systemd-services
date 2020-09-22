@@ -1,6 +1,7 @@
 [Unit]
 Description=A program to speed up single thread download upon long delay and unstable network
 After=network-online.target
+Wants=network-online.target
 
 [Service]
 Type=simple
